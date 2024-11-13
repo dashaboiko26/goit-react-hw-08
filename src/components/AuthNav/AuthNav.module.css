@@ -1,0 +1,35 @@
+.link {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+
+.signup {
+    background-color: transparent;
+    color: #007bff;
+    margin-bottom: 8px;
+}
+
+.signup:hover {
+    color: #034489;
+
+}
+
+.login {
+    background-color: #007bff;
+    color: white;
+}
+
+.login:hover {
+    background-color: #034489;
+
+}
+
+.active {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #034489;
+
+}

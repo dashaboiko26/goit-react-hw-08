@@ -1,0 +1,97 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.icon {
+    color: #007bff;
+    margin-right: 5px;
+    transition: color 0.3s;
+}
+
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.number {
+    margin-right: 20px;
+}
+
+.wrappBtn {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+.btn:hover {
+    color: #007bff;
+}
+
+.modalBoxDelete {
+    width: 400px;
+    height: 150px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 16px;
+    background-color: #d0d6d2;
+    text-align: center;
+}
+
+.modalBoxEdit {
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 16px;
+    background-color: #d0d6d2;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 20px;
+}
+
+.btnDetele {
+
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnDelete:hover {
+    background-color: #007bff;
+}
+
+.title {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
